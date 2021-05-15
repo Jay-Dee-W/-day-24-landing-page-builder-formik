@@ -36,3 +36,10 @@
     padding: 2%;
     text-align: center;
   }
+
+  .btn{
+    background-color: red;
+    border: none;
+    border-radius: .5em;
+    color: white;
+  }
