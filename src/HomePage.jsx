@@ -17,7 +17,7 @@ const checkDateTime =(value)=>{
 }
 
     return (
-        <div className='Form-container'>
+        <div className='Form-container'  style={{backgroundImage: `url(./backGround1.jpg)`}}>
             <Formik className='Form'
                 initialValues={{
                     mainHeadline: "",
