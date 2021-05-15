@@ -1,0 +1,40 @@
+.Form-container{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form {
+    color : white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border-radius: 1em;
+    background: var(--primary);
+}
+
+.Main-Headline, .Secondary-Headline ,.Subtext,.Button-Text ,.Date-Time {
+    padding: 4%;
+    width: 100%
+}
+
+input {
+ width: 100%;
+ height: 30px
+}
+
+.background-picker {
+    border: 1px solid black
+    
+}
+
+.bg1,.bg2 {
+    width: 5%;
+}
